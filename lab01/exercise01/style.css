@@ -6,6 +6,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    box-sizing: border-box;
+    width: 258px;
+    border: solid 1px #CCC;
+}
+
+h2 {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+div {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
 /*
 Add some style blocks below this line to style the card.
 */
