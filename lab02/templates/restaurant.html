@@ -11,9 +11,9 @@
     {% include 'includes/header.html' %}
 
     <main>
-    	<div style="margin-right:10px; float:left; border: solid 1px gray; width="500">
+    	<div style="margin-right:10px; float:left; width:300px; border: solid 1px gray; width="500">
 	        <h1>{{ restaurant.get('name') }}</h1>
-	        <img src={{ restaurant.get('image_url')}} alt="restaurant image">
+	        <img src={{ restaurant.get('image_url')}} style="width:300px" alt="restaurant image">
 	        <h3>{{ restaurant.get('display_address') }}</h3>
 	        <p>Price: <b>{{ restaurant.get('price') }}</b></p>
 	        <p>Rating: <b>{{ restaurant.get('rating') }}</b></p>
